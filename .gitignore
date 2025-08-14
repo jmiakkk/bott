@@ -1,0 +1,26 @@
+@"
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+venv/
+.venv/
+env/
+.env
+*.env
+
+cookies.json
+*.sqlite3
+data/
+
+.vscode/
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+last_page.png
+last_page.html
+"@ | Set-Content -Encoding UTF8 .gitignore
