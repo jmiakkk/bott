@@ -1,6 +1,4 @@
-@"
 requests==2.32.3
 beautifulsoup4==4.12.3
 aiogram==3.13.1
 playwright==1.47.0
-"@ | Set-Content -Encoding UTF8 requirements.txt
